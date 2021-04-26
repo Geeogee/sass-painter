@@ -1,5 +1,38 @@
 #jumbotron {
 
     background-image: url("../img/bg-painter-home.jpg");
-    min-height: 350px;
+    background-size: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+
+    .container {
+
+        @include container;
+        
+        .wrapper-infos {
+
+            width: 45%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #dark-logo {
+
+            width: 250px;
+        }
+
+        .descr {
+
+            font-size: $medium-font;
+        }
+
+        .offer {
+
+            color: $text-offer;
+        }
+    }
+
+
 }

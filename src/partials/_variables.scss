@@ -1,9 +1,13 @@
-$main-background: #000;
+$main-color: #000;
 
+/* Colors */
 $text-primary: #FFF;
 $text-secondary: #70716f;
+$text-offer: #c921b4;
 
+/* Typography */
 $font-base-size: 14px;
+$medium-font: 20px;
 
 @mixin container {
 

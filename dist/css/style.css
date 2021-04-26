@@ -8,6 +8,28 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Colors */
+/* Typography */
+.btn {
+  border: 0;
+  padding: 10px 20px;
+  height: 40px;
+  border: 2px solid #000;
+  font-size: 17px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  color: #FFF;
+  background-color: #000;
+}
+
+.btn-transparent {
+  color: #000;
+  background-color: transparent;
+}
+
 header {
   background-color: #000;
 }
@@ -46,6 +68,28 @@ header nav .actions .icons {
 }
 
 #jumbotron {
-  background-color: red;
-  min-height: 350px;
+  background-image: url("../img/bg-painter-home.jpg");
+  background-size: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+#jumbotron .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#jumbotron .container .wrapper-infos {
+  width: 45%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+#jumbotron .container #dark-logo {
+  width: 250px;
+}
+#jumbotron .container .descr {
+  font-size: 20px;
+}
+#jumbotron .container .offer {
+  color: #c921b4;
 }
