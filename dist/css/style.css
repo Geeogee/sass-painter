@@ -8,8 +8,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+main {
+  background-color: #e8e8e8;
+}
+
 /* Colors */
 /* Typography */
+/* Boxes */
 .btn {
   border: 0;
   padding: 10px 20px;
@@ -28,6 +33,12 @@ body {
 .btn-transparent {
   color: #000;
   background-color: transparent;
+}
+
+.btn-white {
+  color: #70716f;
+  background-color: #FFF;
+  border: 0;
 }
 
 header {
@@ -78,6 +89,9 @@ header nav .actions .icons {
   width: 80%;
   margin: 0 auto;
 }
+#jumbotron .container .wrapper-infos > * {
+  margin: 10px 0;
+}
 #jumbotron .container .wrapper-infos {
   width: 45%;
   height: 70%;
@@ -92,4 +106,85 @@ header nav .actions .icons {
 }
 #jumbotron .container .offer {
   color: #c921b4;
+}
+
+#tools h2 {
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+}
+#tools .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#tools .container .thumbnail {
+  flex-basis: calc(95% / 3);
+  display: flex;
+  flex-direction: column;
+}
+#tools .container .thumbnail img {
+  max-width: 100%;
+}
+#tools .container .thumbnail .wrapper-text {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #70716f;
+}
+#tools .container .thumbnail .wrapper-text > * {
+  margin: 5px 0;
+}
+#tools .container .thumbnail .wrapper-text .title {
+  color: #000;
+  font-weight: 600;
+}
+#tools .container .thumbnail .wrapper-text a {
+  color: #40b8ff;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .box {
+  flex-basis: 50%;
+  height: 300px;
+  color: #FFF;
+}
+.container .box img {
+  height: inherit;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .box h2 {
+  font-weight: 600;
+}
+.container .box .wrapper-text {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container .box .wrapper-text > * {
+  margin: 10px 0;
+}
+.container .box .btn {
+  width: 150px;
+}
+.container .box.special {
+  background: url("../img/wacom-painter.jpg");
+}
+.container .box.purple {
+  background-color: #3c1567;
+}
+.container .box.gray {
+  background-color: #3c3c3c;
+}
+.container .box.blue {
+  background-color: #0072bc;
 }

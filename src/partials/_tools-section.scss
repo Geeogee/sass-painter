@@ -1,0 +1,52 @@
+#tools {
+
+    h2 {
+        text-align: center;
+        padding: 20px;
+        font-weight: 600;
+    }
+
+    .container {
+
+        @include container;
+        display: flex;
+        justify-content: space-between;
+
+        .thumbnail {
+
+            @include thumbnail;
+
+            img {
+
+                max-width: 100%;
+            }
+            
+            .wrapper-text {
+                
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                color: $text-secondary;
+
+                & > * {
+                    
+                    margin: 5px 0;
+                }
+
+                .title {
+
+                    color: $main-color;
+                    font-weight: 600;
+                }
+
+                a {
+
+                    color: $text-link;
+                    text-decoration: none;
+                }
+
+            }
+        }
+    }
+
+}

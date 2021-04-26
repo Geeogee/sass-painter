@@ -22,3 +22,10 @@
     color: $main-color;
     background-color: transparent;
 }
+
+.btn-white {
+
+    color: $text-secondary;
+    background-color: $text-primary;
+    border: 0;
+}

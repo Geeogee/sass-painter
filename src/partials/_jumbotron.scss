@@ -6,9 +6,15 @@
     display: flex;
     align-items: center;
 
+
     .container {
 
         @include container;
+
+        .wrapper-infos > * {
+
+            margin: 10px 0;
+        }
         
         .wrapper-infos {
 
@@ -33,6 +39,4 @@
             color: $text-offer;
         }
     }
-
-
 }

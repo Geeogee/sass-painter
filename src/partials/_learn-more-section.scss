@@ -1,0 +1,61 @@
+.container {
+
+    @include container;
+    display: flex;
+    flex-wrap: wrap;
+
+    .box {
+
+        @include box-cell;
+        color: $text-primary;
+
+        img {
+
+            height: inherit;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        h2 {
+
+            font-weight: 600;
+        }
+
+        .wrapper-text {
+
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+
+            & > * {
+
+                margin: 10px 0;
+            }
+        }
+
+        .btn {
+            width: 150px;
+        }
+    }
+
+    .box.special {
+
+        background: url("../img/wacom-painter.jpg");
+    }
+
+    .box.purple {
+
+        background-color: $box-purple;
+    }
+
+    .box.gray {
+
+        background-color: $box-gray
+    }
+
+    .box.blue {
+        background-color: $box-blue
+    }
+
+    
+}

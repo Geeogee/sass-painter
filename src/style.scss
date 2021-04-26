@@ -10,7 +10,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+main {
+
+    background-color: #e8e8e8;
+}
+
 @import "partials/variables";
 @import "partials/components";
 @import "partials/header";
 @import "partials/jumbotron";
+@import "partials/tools-section";
+@import "partials/learn-more-section";
