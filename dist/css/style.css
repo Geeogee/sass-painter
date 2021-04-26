@@ -44,3 +44,8 @@ header nav .actions li {
 header nav .actions .icons {
   color: #009cff;
 }
+
+#jumbotron {
+  background-color: red;
+  min-height: 350px;
+}
