@@ -7,14 +7,23 @@ $text-offer: #c921b4;
 $text-link: #40b8ff;
 
 /* Typography */
+$small-font: 10px;
 $font-base-size: 14px;
 $medium-font: 20px;
+$large-font: 30px;
 
 /* Boxes */
 $box-purple: #3c1567;
 $box-blue: #0072bc;
 $box-gray: #3c3c3c;
 
+/* Socials */
+$instagram: #e4405f;
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$youtube: #cd201f;
+$pinterest: #bd081c;
+$rss: #ff8d00;
 
 @mixin container {
 

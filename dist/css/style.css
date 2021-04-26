@@ -15,6 +15,7 @@ main {
 /* Colors */
 /* Typography */
 /* Boxes */
+/* Socials */
 .btn {
   border: 0;
   padding: 10px 20px;
@@ -148,6 +149,7 @@ header nav .actions .icons {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -187,4 +189,60 @@ header nav .actions .icons {
 }
 .container .box.blue {
   background-color: #0072bc;
+}
+
+footer {
+  background-color: #ececec;
+}
+footer .container > ul {
+  width: 25%;
+}
+footer ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+footer a {
+  text-decoration: none;
+  color: #70716f;
+}
+footer #social-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+footer #social-links #instagram {
+  color: #e4405f;
+}
+footer #social-links #facebook {
+  color: #3b5998;
+}
+footer #social-links #twitter {
+  color: #1da1f2;
+}
+footer #social-links #youtube {
+  color: #cd201f;
+}
+footer #social-links #pinterest {
+  color: #bd081c;
+}
+footer #social-links #rss {
+  color: #ff8d00;
+}
+footer .copyrights {
+  background-color: #1e1e1e;
+  min-height: 100px;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copyrights ul {
+  display: flex;
+}
+footer .copyrights ul li {
+  margin: 0 5px;
+}
+footer .copyrights ul #copyright-text {
+  color: #FFF;
 }
