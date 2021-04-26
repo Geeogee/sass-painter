@@ -1,0 +1,47 @@
+header {
+
+    background-color: $main-background;
+
+    nav {
+
+        @include container;
+        display: flex;
+        flex-direction: column;
+        font-size: $font-base-size;
+
+        ul {
+
+            @include nav-links;
+
+            li {
+
+                padding: 0 20px;
+                
+            }
+
+            a {
+
+                color: $text-primary;
+                text-decoration: none;
+            }
+        }
+
+        .actions {
+
+            display: flex;
+            justify-content: flex-end;
+            color: $text-secondary;
+            font-size: $font-base-size - 2px;
+            
+            li {
+
+                padding: 0 10px;
+            }
+
+            .icons {
+
+                color: #009cff;
+            }
+        }
+    }
+}

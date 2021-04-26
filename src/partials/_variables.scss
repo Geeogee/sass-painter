@@ -1,0 +1,21 @@
+$main-background: #000;
+
+$text-primary: #FFF;
+$text-secondary: #70716f;
+
+$font-base-size: 14px;
+
+@mixin container {
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+@mixin nav-links {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+}
